@@ -14,3 +14,6 @@ apply:
 
 destroy:
 	terraform destroy -var-file variables.tfvars -auto-approve
+
+output:
+	terraform output
