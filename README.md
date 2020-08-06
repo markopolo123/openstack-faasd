@@ -34,7 +34,7 @@ Bootstrapping TLS enabled OpenFaas on Openstack with Terraform.
     dns_nameservers = ["8.8.8.8", "8.8.4.4"] # DNS if needed
     flavor_name     = "C1.openstack.tiny" # Flavor type here
     ```
-    > Note that here the Floating IP has been pre allocated to the project - this is due to limitations with DNS CNAME records in the cloud available to me.
+    > Note: Here the Floating IP has been pre allocated to the project - this is due to limitations with DNS CNAME records in the cloud available to me.
 
     There are more variables we could define here, for instance, we could change the versions of *containerd* or *faasd*. Check out `variables.tf` for a full list of variables for this project.
 5. Run commands in the `Makefile`
