@@ -1,2 +1,4 @@
 .openstack.sh
 .envrc
+cloud-init
+faasd.plan
